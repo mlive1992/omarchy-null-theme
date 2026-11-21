@@ -1,0 +1,40 @@
+# Null: black, white and one signal red. Red means exactly one thing: look here.
+mode = "dark"
+
+accent = "#d71921"
+# Inverted selection: white block, black text.
+selection = "#e6e6e6"
+selection_foreground = "#000000"
+muted = "#7a7a7a"
+
+# Window edge: a thin off-white line on the focused window; a quiet grey when unfocused.
+hyprland_active_border = "#e6e6e6"
+hyprland_inactive_border = "#333333"
+
+# Soft charcoal rather than pure black, so editors and terminals are easier on the eyes.
+background = "#181818"
+dark_background = "#121212"
+darker_background = "#0c0c0c"
+lighter_background = "#262626"
+
+foreground = "#e6e6e6"
+dark_foreground = "#b3b3b3"
+light_foreground = "#f2f2f2"
+bright_foreground = "#ffffff"
+
+# Only red is saturated; every other hue is pulled toward grey.
+red = "#d71921"
+yellow = "#c9b87a"
+orange = "#c98a6a"
+green = "#8fa88a"
+cyan = "#8aa8a6"
+blue = "#8a9bb0"
+magenta = "#a68fa8"
+brown = "#a08a74"
+
+bright_red = "#ff4d55"
+bright_yellow = "#e0d4a3"
+bright_green = "#b3c7ae"
+bright_cyan = "#b0c9c7"
+bright_blue = "#b3c0d0"
+bright_magenta = "#c7b3c9"

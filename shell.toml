@@ -1,0 +1,133 @@
+# Null: a solid black bar, 1px white lines, and inverted (white-on-black → black-on-white)
+# selection in the launcher and menus. Signal red marks alerts and the focused item only.
+
+[bar]
+background = "#000000"
+background-alpha = 1.0
+text = "#e6e6e6"
+active = "#d71921"
+scale-with-font = true
+size-horizontal = 26
+size-vertical = 28
+
+[hyprland]
+# Same off-white edge as the windows, so popups and the lock screen match.
+active-border = "#e6e6e6"
+active-border-foreground = "#e6e6e6"
+
+[controls]
+normal-color = "#e6e6e6"
+normal-fill-alpha = 0.03
+normal-border = "#e6e6e6"
+normal-border-width = 1
+normal-border-alpha = 0.30
+hover-cursor-color = "#ffffff"
+hover-cursor-fill-alpha = 0.08
+hover-cursor-border = "#ffffff"
+hover-cursor-border-width = 1
+hover-cursor-border-alpha = 0.55
+focus-color = "#ffffff"
+focus-fill-alpha = 0.08
+focus-border = "#ffffff"
+focus-border-width = 1
+focus-border-alpha = 0.85
+selected-color = "#d71921"
+selected-fill-alpha = 0.18
+selected-border = "#d71921"
+selected-border-width = 0
+selected-border-alpha = 1.0
+pressed-fill-alpha = 0.22
+selection-fill-alpha = 0.35
+
+[spacing]
+scale = 1.0
+scale-with-font = true
+
+[font]
+base-size = 12
+
+[popups]
+background = "#000000"
+background-alpha = 0.96
+text = "#e6e6e6"
+border = "hyprland.active-border"
+border-alpha = 0.35
+border-width = 1
+
+[tooltip]
+background = "#000000"
+background-alpha = 0.96
+text = "#e6e6e6"
+border = "hyprland.active-border-foreground"
+border-alpha = 0.35
+
+[notifications]
+background = "#000000"
+background-alpha = 0.96
+text = "#e6e6e6"
+border = "hyprland.active-border"
+border-alpha = 0.35
+border-width = 1
+countdown = "#d71921"
+
+[launcher]
+background = "#000000"
+background-alpha = 0.96
+text = "#e6e6e6"
+border = "hyprland.active-border-foreground"
+border-alpha = 0.35
+scrim = "#000000"
+scrim-alpha = 0.45
+selected-background = "#e6e6e6"
+selected-background-alpha = 1.0
+selected-text = "#000000"
+selected-border = "#e6e6e6"
+selected-border-alpha = 1.0
+
+[menu]
+background = "#000000"
+background-alpha = 0.96
+text = "#e6e6e6"
+border = "hyprland.active-border-foreground"
+border-alpha = 0.35
+scrim = "#000000"
+scrim-alpha = 0.45
+selected-background = "#e6e6e6"
+selected-background-alpha = 1.0
+selected-text = "#000000"
+selected-border = "#e6e6e6"
+selected-border-alpha = 1.0
+
+[polkit]
+background = "#000000"
+background-alpha = 0.96
+text = "#e6e6e6"
+text-error = "#ff4d55"
+border = "hyprland.active-border"
+border-error = "#d71921"
+border-alpha = 0.6
+scrim = "#000000"
+scrim-alpha = 0.6
+accent = "#d71921"
+
+[lock]
+background = "#000000"
+background-alpha = 0.96
+text = "#e6e6e6"
+placeholder = "#7a7a7a"
+text-error = "#ff4d55"
+border = "hyprland.active-border"
+border-active = "hyprland.active-border"
+border-error = "#d71921"
+border-alpha = 0.6
+selection = "#d71921"
+selection-alpha = 0.45
+
+[image-picker]
+scrim = "#000000"
+scrim-alpha = 0.6
+text = "#e6e6e6"
+selected-border = "#d71921"
+selected-border-alpha = 1.0
+unselected-border = "#e6e6e6"
+unselected-border-alpha = 0.22
