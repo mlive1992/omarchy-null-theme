@@ -3,7 +3,7 @@
 Black, white and one signal red. A dark theme for Omarchy built on dot-matrix
 details, film grain and a strict rule: **red means exactly one thing: look here.**
 
-![Null: fastfetch, Neovim and btop over the Form Study wallpaper](preview.png)
+![Null: Neovim, btop, a terminal and Files over the Signal wallpaper](preview.png)
 
 ## Install
 
@@ -45,16 +45,16 @@ Six original **5120 × 2880** wallpapers:
 
 | | |
 |---|---|
-| ![](previews/01-form-study-clean.jpg) Form Study (default) | ![](previews/02-form-study-light.jpg) Form Study, light |
-| ![](previews/03-groove.jpg) Groove | ![](previews/04-branch.jpg) Branch |
-| ![](previews/05-reeded.jpg) Reeded | ![](previews/06-reeded-dark.jpg) Reeded, dark |
+| ![](previews/01-signal.jpg) Signal (default) | ![](previews/02-signal-light.jpg) Signal Light |
+| ![](previews/03-ripple.jpg) Ripple | ![](previews/04-branch.jpg) Branch |
+| ![](previews/05-fluted-glass.jpg) Fluted Glass | ![](previews/06-fluted-glass-dark.jpg) Fluted Glass Dark |
 
 ### Intro
 
 The default wallpaper opens with a six-second intro when you switch to Null: the shapes
 come into focus one by one and the red signal switches on last, settling on the still.
 
-![The Form Study intro](previews/intro-01-form-study-clean.webp)
+![The Signal intro](previews/intro-01-signal.webp)
 
 Turn intros on or off with `omarchy theme bg intro toggle`.
 
