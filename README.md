@@ -1,6 +1,6 @@
 # Null
 
-Black, white and one signal red. A dark theme for Omarchy built on dot-matrix
+Black, white and one signal red. A dark theme for Omarchy built on Nothing OS style/dot-matrix
 details, film grain and a strict rule: **red means exactly one thing: look here.**
 
 ![Null: Neovim, btop, a terminal and Files over the Signal wallpaper](preview.png)
