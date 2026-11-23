@@ -30,7 +30,7 @@ omarchy theme remove null
 ## The theme
 
 - True-black surfaces, a solid black bar and 1px white window edges.
-- **Inverted selection**: the highlighted row in the launcher, menus and the terminal is a white block with black text.
+- **Inverted selection**: the highlighted row in the launcher and menus is a white block with black text; editors and apps select in graphite so text stays readable.
 - Signal red `#d71921` only for what needs you: bar alerts, the focused control, the notification countdown, errors.
 - Terminal colors greyed down so red is the only one that stands out, while code stays readable.
 - Red Yaru folder icons (`Yaru-red-dark`).

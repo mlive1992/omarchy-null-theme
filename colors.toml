@@ -2,9 +2,10 @@
 mode = "dark"
 
 accent = "#d71921"
-# Inverted selection: white block, black text.
-selection = "#e6e6e6"
-selection_foreground = "#000000"
+# Selection is a graphite block under normal light text: many apps (Neovim, Telegram, btop)
+# use it only as a background, so it must stay dark. Menus keep their inverted look in shell.toml.
+selection = "#3a3a3a"
+selection_foreground = "#ffffff"
 muted = "#7a7a7a"
 
 # Window edge: a thin off-white line on the focused window; a quiet grey when unfocused.
